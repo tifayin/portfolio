@@ -14,40 +14,8 @@
     
         <link rel="shortcut icon" type="image/gif" href="./img/favicon.ico">
 	    <link rel="bookmark" type="image/gif" href="./img/favicon.ico"/>
-        <!--
-        <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
-        <script type="text/javascript" src="./js/jquery-1.6.1.min.js"></script>
-        <script type="text/javascript" src="./js/jquery.fullPage.min.js"></script>
-        -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.1/jquery.fullPage.css">
-        <script src="http://cdn.staticfile.org/jquery/1.8.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.1/jquery.fullPage.min.js"></script>
 
-    
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $('#fullpage').fullpage({
-                    
-                    menu: '#Menu',
-                    css3: true,
-                    anchors: ['tifa', 'about', 'work', 'contact'],
-				    loopBottom: true,
-                    navigation: true,
-                    navigationPosition: 'right',
-                    navigationTooltips: ['tifa', 'about', 'work', 'contact'],
-
-                });
-            });
-
-        </script>
-        <script>
-            function openNav() {
-                document.getElementById("myNav").style.width = "100%";
-            }
-            function closeNav() {
-                document.getElementById("myNav").style.width = "0%";
-            }
-        </script>
+      
 </head>
 
 
@@ -56,164 +24,20 @@
         
         <!----------------HEADER---------------->
         <header> 
-            <!--<nav class="main-nav">
-                <ul id="menu">
-                    <li data-menuanchor="tifa" class="active"><a href="#tifa">TIFA</a></li>
-                    <li data-menuanchor="about"><a href="#about">About</a></li>
-                    <li data-menuanchor="work"><a href="#work">Work</a></li>
-                    <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>-->
-        
-            <div id="myNav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                <div class="overlay-content">
                 <ul id="Menu">
-                    <li data-menuanchor="tifa"><a href="#tifa">Tifa</a></li>
-                    <li data-menuanchor="about"><a href="#about">About</a></li>
-                    <li data-menuanchor="work"><a href="#work">Work</a></li>
-                    <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
-                </div>
-            </div>
-            <div class="respon-nav" 
-                 style="font-size:40px; cursor:pointer; padding: 15px;" onclick="openNav()">☰</div>
+                
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
         </header>
         
-        <div id="fullpage">
-            
-        <!-----------------MAIN----------------->
-        <section class="section tifa">
-            
-            
-                <h1>TIFA YIN</h1>
-                <!--<h2>Web Designer / Illustrator</h2>-->
-            
-            
-            <div class="avatar">   
-          
-                <svg version="1.1" id="head" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                     width="1600px" height="450px" viewBox="-600 0 1600 450" enable-background="new -600 0 1600 450" xml:space="preserve">
-    
-                <path id="body" fill="#E6E7E8" d="M113.371,410c0-58.404,38.785-105.749,86.629-105.749c47.846,0,86.629,47.345,86.629,105.749"/>
-                <path id="hair" fill="#E6E7E8" d="M200,321.831c85.42,0,167.462,0,165.5-95.777C363.49,128.018,285.42,19,200,19
-                    S36.509,128.018,34.5,226.054C32.538,321.831,114.58,321.831,200,321.831z"/>
-    
-                <path id="face" fill="#F1F2F2" d="M315.076,219.287c0,73.982-51.52,107.879-115.076,107.879
-                    c-63.556,0-115.077-33.896-115.077-107.879c0-73.979,51.521-133.954,115.077-133.954
-                    C263.557,85.333,315.076,145.308,315.076,219.287z"
-                      onmouseover="evt.target.parentNode.getElementById('eyeleft').setAttribute('ry', '14');
-                                   evt.target.parentNode.getElementById('eyeright').setAttribute('ry', '14');
-                                   evt.target.parentNode.getElementById('eyebrowright').setAttribute('y', '190');"
-                      onmouseout="evt.target.parentNode.getElementById('eyeleft').setAttribute('ry', '10');
-                                  evt.target.parentNode.getElementById('eyeright').setAttribute('ry', '10');
-                                  evt.target.parentNode.getElementById('eyebrowright').setAttribute('y', '200');"/>
 
-                <rect id="eyebrowleft" x="125" y="200" fill="#E6E7E8" width="50" height="10"/>
-                <rect id="eyebrowright" x="225" y="200" fill="#E6E7E8" width="50" height="10"/>
-                <ellipse id="eyeleft" fill="#E6E7E8" cx="150" cy="235" rx="12.5" ry="10">
-                        <animate dur="5s" values="10;10;10;10;10;3;10;10;10;10;10;" attributeName="ry" repeatCount="indefinite" calcMode="discrete"/>
-                </ellipse> 
-                <ellipse id="eyeright" fill="#E6E7E8" cx="250" cy="235" rx="12.5" ry="10">
-                        <animate dur="5s" values="10;10;10;10;10;3;10;10;10;10;10;" attributeName="ry" repeatCount="indefinite" calcMode="discrete"/>
-                </ellipse> 
+            <section class="section tifa">
+                    <h1>TIFA YIN</h1>
+            </section>
+      
 
-                <path id="mouth" fill="#E6E7E8" d="M227.018,265.338c0,3.373-12.096,14.254-27.018,14.254c-14.921,0-27.018-10.881-27.018-14.254
-                    s12.096-4.106,27.018-4.106C214.922,261.23,227.018,261.963,227.018,265.338z"/>
-                <path id="nose" fill="#E6E7E8" d="M208.375,243.466c0,1.046-3.75,4.418-8.375,4.418s-8.375-3.372-8.375-4.418
-                    s3.75-1.272,8.375-1.272S208.375,242.421,208.375,243.466z"/>
-                    
-                <g id="Bangs">
-                    <ellipse transform="matrix(-0.866 0.5 -0.5 -0.866 380.6131 122.4824)" fill="#E6E7E8" cx="173.897" cy="112.235" rx="105.387" ry="56.924"/>
-                    <ellipse transform="matrix(0.6428 0.766 -0.766 0.6428 193.758 -165.1125)" fill="#E6E7E8" cx="273.93" cy="125.212" rx="73.961" ry="39.949"/>
-                </g>
-                    
-                <rect x="-600" y="410" fill="#8D6035" width="1600" height="40"/>
-                </svg>
-
-                </div>
-                
-            
-        </section>
-        <!-----------------ABOUT----------------->
-        <section class="section about">
-            
-                
-                <h1>ABOUT</h1>
-                
-                <p>
-                Hello! I am Tifa.<br>
-                I live in Taipei and work as a web designer over 2 years. <br>
-                There is my web design portfolio in <a href="#" target="_blank">Behance</a> and <a href="#" target="_blank">Issuu</a>.<br>
-                In my free time I love illustrates, you can see my illustrations in <a href="#" target="_blank">Tumblr</a>.
-                </p>
-
-            
-                <a target="_blank" href="https://www.dropbox.com">
-                <div class="button"> Resume </div>
-                </a>
-               
-               
-            
-        </section>
-        <!-----------------WORK----------------->
-        <section class="section work">
-           
-            <h1>WORK</h1>
-            
-                <div class="work-inner">
-                    <a target="_blank" href="#" class="work-item">
-                        <span><i class="fa fa-dribbble"> Open Dribbble</i></span>
-                        <img src="img/santa1.png">
-                    </a>
-                    <a target="_blank" href="#" class="work-item">
-                        <span><i class="fa fa-dribbble"> Open Dribbble</i></span>
-                        <img src="img/santa1.png">
-                    </a>
-                    <a target="_blank" href="#" class="work-item">
-                        <span><i class="fa fa-dribbble"> Open Dribbble</i></span>
-                        <img src="img/santa1.png">
-                    </a>
-                    <a target="_blank" href="#" class="work-item">
-                        <span><i class="fa fa-dribbble"> Open Dribbble</i></span>
-                        <img src="img/santa1.png">
-                    </a>
-                    <a target="_blank" href="#" class="work-item">
-                        <span><i class="fa fa-dribbble"> Open Dribbble</i></span>
-                        <img src="img/santa1.png">
-                    </a>
-                    <a target="_blank" href="#" class="work-item">
-                        <span><i class="fa fa-dribbble"> Open Dribbble</i></span>
-                        <img src="img/santa1.png">
-                    </a>
-                </div>
-
-               
-        
-
-               
-        </section>
-        <!---------------CONTACT--------------->
-        <section class="section contact">
-            
-                <h1>CONTACT</h1>  
-                
-                    
-                    <a href="mailto:tifa801217@gmail.com" target="_blank">tifa801217@gmail.com</a>
-                    <ul>
-                       
-                        <li><a href="#" target="_blank">BEHANCE </a><span></span></li>
-                        <li><a href="#" target="_blank">TUMBLR </a><span></span></li>
-                        <li><a href="#" target="_blank">PINGTERST </a><span></span></li>
-                        <li><a href="#" target="_blank">FACEBOOK </a><span></span></li>
-                        <li><a href="#" target="_blank">INSTAGRAM</a></li>
-
-                    </ul>
-                    
-            
-        </section>  
-            
-        </div>
-        
     </div><!--end wrapper-->
             
        
